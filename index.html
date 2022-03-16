@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      font-family: 'Outfit', sans-serif;
+    }
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    .main{
+      display: grid;
+      place-items: center;
+      background: rgb(214, 226, 240);
+      height: 97vh;
+    }
+    .card{
+      background: white;
+      width: 300px;
+      height: 450px;
+      border-radius: 15px;
+      display: grid;
+      grid-template-rows: 65% 35%;
+      grid-auto-rows: minmax(50px, auto);
+      grid-gap: 1em;
+    }
+    img{
+      margin: auto;
+      width: 90%;
+      height: 90%;
+      border-radius: 15px;
+    }
+    h3{
+      font-weight: 700;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    h5{
+      text-align: center;
+      font-size: 15px;
+      font-weight: 400;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+  <div class="main">
+    <div class="card">
+      <img src="/images/image-qr-code.png" alt="">
+      <div class="info">
+        <h3>Improve your front-end skills by building projects</h3>
+        <h5>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</h5>
+    </div>
+    </div>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://www.frontendmentor.io/profile/Raazkatwal" target="_blank">Raaz katwal</a>.
+  </div>
+</body>
+</html>
